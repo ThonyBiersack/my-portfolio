@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(35, 34, 34);
+  font-family: 'Russo One', sans-serif;
+}
+
+.kepala{
+    width: 50%;
+    height: 100%;
+    border: transparent;
+    display: relative;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.kepala div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left;
+}
+
+.kaki{
+    width: 50%;
+    height: 100%;
+    border: transparent;
+    display: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.kaki div{
+  text-align: right;
+  color: white;
+}

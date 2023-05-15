@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: left;
+    font-size: 25px;
+ }
+ 
+ ul{
+   overflow: hidden;
+   list-style-type: none;
+   padding-left: 0;
+ }
+ 
+ li a{
+   color: white;
+   float: left;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 40px;
+ }
+
+ @media screen and (max-width: 500px) {
+    li a{
+        float: none;
+        display: block;
+    }
+ }
+ 
+ .email, .github, .linkedin{
+    padding-top: 20px;
+    font-size: 60px;
+ }
+
+ /* end of kepala */
+
+ /* konten */
+.Content{
+    width: 50%;
+    height: 100%;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    gap: 100px;
+}
+
+.Content div{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-size: medium;
+}
+ /* end of konten */
