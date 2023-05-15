@@ -6,7 +6,7 @@ export default function AboutMe(){
     return (
         <div className="tentangku">
                 <ul>
-                    <li><a href="#"><h1>Hello, I'm
+                    <li><a href="/"><h1>Hello, I'm
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter
