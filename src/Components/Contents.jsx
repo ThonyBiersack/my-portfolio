@@ -1,20 +1,25 @@
 import '../Component.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Carkus from './Carkus';
+import Welcome from './Welcome';
+import Blog from './Blog';
 
 export default function MyContent() {
     return(
         <div className='Content'>
             <div>
-                <h2>Welcome</h2>
-                <p>My name is Anthony suryadjie, 
-                   I'm a full-stack developer based in Sukabumi, 
-                   West Java, Indonesia. I have created several website
-                   like blog website, carkus, and e-commerce platform but I didn't
-                   publish it.</p>
+            <Router>
+                    <Routes>
+                        <Route path='/' element={<Welcome />} />
+                        <Route path='/carkus' element={<Carkus />} />
+                        <Route path='/blog' element={<Blog />} />
+                    </Routes>
+                </Router>
             </div>
             <div>
                 <h2>Project</h2>
-                    <p><a href="https://dancing-crumble-c1b5f2.netlify.app/">Carkus</a></p>
-                    <p><a href="https://thony-personality.netlify.app/blog.html">Mine Blog</a></p>
+                    <p><a href="/carkus">Carkus</a></p>
+                    <p><a href="/blog">Mine Blog</a></p>
             </div>
         </div>
     )
