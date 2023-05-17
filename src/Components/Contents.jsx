@@ -5,8 +5,6 @@ import Welcome from './Welcome';
 import Blog from './Blog';
 import Kata from './Notfound'
 
-// export default function MyContent() {
-    // const navigate = useNavigate();
     export default function MyContent(){
         return(
             <div className='Content'>

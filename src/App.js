@@ -1,7 +1,7 @@
 import './App.css';
 import AboutMe from './Components/Header'
-import Halaman from './Components/Contents';
 import Footer from './Components/Footer'
+import MyContent from './Components/Contents';
 
 
 
@@ -12,7 +12,7 @@ function App() {
         <AboutMe className='neck'/>
       </div>
       <div className='content'>
-        <Halaman/>
+        <MyContent/>
       </div>
       <div className='kaki'>
         <Footer className='foot'/>
