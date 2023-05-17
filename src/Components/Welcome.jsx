@@ -1,10 +1,11 @@
 import '../Component.css';
+import { Link } from 'react-router-dom';
 
 export default function welcome(){
     return (
         <div className="Content">
             <div>
-                <h2>Welcome</h2>
+                <h2><Link to='/'>Welcome</Link></h2>
                 <p>My name is Anthony suryadjie, 
                     I'm a full-stack developer based in Sukabumi, 
                     West Java, Indonesia. I have created several website
