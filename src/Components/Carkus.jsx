@@ -12,7 +12,7 @@ export default function carkus(){
                     in the surrounding area.
                 </p>
                 <ul>
-                    <li><a href='https://dancing-crumble-c1b5f2.netlify.app/'>visit</a></li>
+                    <li><a href='https://dancing-crumble-c1b5f2.netlify.app/' target="_blank" rel="noopener noreferrer">visit</a></li>
                 </ul>
             </div>
         </div>

@@ -11,7 +11,7 @@ export default function blog(){
                    to create at blogger cause i have my own blog
                 </p>
                 <ul>
-                    <li><a href='https://thony-personality.netlify.app/blog.html'>visit</a></li>
+                    <li><a href='https://thony-personality.netlify.app/blog.html' target="_blank" rel="noopener noreferrer">visit</a></li>
                 </ul>
             </div>
         </div>
