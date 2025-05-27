@@ -19,11 +19,11 @@ export default function AboutMe(){
                                     
                                     .pauseFor(1000)
                                     .deleteAll()
-                                    .typeString("a Designer")
+                                    .typeString("a Designer System")
                                     
                                     .pauseFor(1000)
                                     .deleteAll()
-                                    .typeString("a Full-stack Engineer")
+                                    .typeString("a Back-End Engineer")
                                     
                                     .pauseFor(1000)
                                     .deleteAll()
